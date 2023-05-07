@@ -19,7 +19,6 @@ preload.style.display = "none";
 let button = document.getElementById("data_output");
 let newElement = document.createElement("p");
 data_output.after(newElement);
-// newElement.style.color = "black";
 
 function send() {
   preload.style.display = "block";
